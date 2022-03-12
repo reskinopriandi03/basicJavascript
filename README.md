@@ -1,1 +1,1 @@
-# basicJavascript
+# basicJavaScript
