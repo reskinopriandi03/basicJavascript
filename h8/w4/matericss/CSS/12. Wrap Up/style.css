@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+#navbar {
+  background-color: orange;
+  color: white;
+}
+
+#navbar img {
+  width: 100px;
+}
+
+#nav-right p {
+  display: inline;
+}

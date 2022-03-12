@@ -1,0 +1,2 @@
+web page => html, css, javascript
+html => penulisan text file secara khusus (memberi struktur pada web page)

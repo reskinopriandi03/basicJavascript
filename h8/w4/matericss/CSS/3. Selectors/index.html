@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+        CSS SELECTOR
+        1. simple selector
+       */
+
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* 
+       html tag name
+       */
+      h1 {
+        background-color: aquamarine;
+      }
+      h3 {
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      /* 
+        class selector
+      */
+      .heading-red {
+        color: red;
+        text-decoration: underline;
+      }
+      .bg-brown {
+        background-color: brown;
+      }
+
+      /* 
+        id selector
+        harus unik
+      */
+      #main-heading {
+        color: blueviolet;
+        background-color: chartreuse;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="main-heading" name="heading satu">ini h1</h1>
+    <h2 class="heading-red bg-brown" name="apa">ini h2 2</h2>
+    <h3 name="heading tiga" class="heading-red">ini h3 3</h3>
+    <h1 id="sub-main-heading" name="heading satu">ini h1 lainnya</h1>
+  </body>
+</html>
